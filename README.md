@@ -26,7 +26,7 @@ An agentic knowledge assistant (FastAPI, LangGraph, MCP). It routes each questio
 
 A system in which an AI agent improves the workflow it runs in, my multi-model coding setup with cross-model review. A change is adopted only after it proves itself on my real work, and adoption is my call alone.
 
-**Result:** the first change the system proposed on its own passed verification, and I adopted it. With every check still passing, the workflow used 34% fewer tokens and 29% less time (exploratory: one task).
+**Results so far:** in 9 rounds, the system proposed 2 changes that passed verification, and I adopted both. One cut tokens 34% and time 29% on its task; the next cut tokens 20% across two real coding tasks. Neither regressed under the rule.
 
 [What Ratchet is for, and where it is going →](https://github.com/DaggerLee/DaggerLee/blob/main/ratchet.md)
 
