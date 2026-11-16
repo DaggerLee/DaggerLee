@@ -25,7 +25,7 @@ An agentic knowledge assistant (FastAPI, LangGraph, MCP). It routes each questio
 
 A system in which an AI agent improves the workflow it runs in: my multi-agent coding setup, Claude Code and Codex agents with cross-model review. A change is adopted only after it proves itself on my real work, and adoption is my call alone.
 
-**Results so far:** on 3 real coding tasks (TypeScript, Python) and 10 small tasks drawn from them, in 10 rounds, the system proposed 3 changes that passed verification, and I adopted all three: one cut tokens 34% and time 29% on one small task, one cut tokens 20% across 7 small tasks from two real tasks, and one fixed a small task that had been failing. None regressed under the rule. Exploratory: few tasks.
+**Results so far:** on 3 real coding tasks (TypeScript, Python) and 10 small tasks drawn from them, in 10 rounds, the system proposed 3 changes that passed verification, and I adopted all three: one cut tokens 34% and time 29% on one small task, one cut total tokens 20% across 7 small tasks from two real tasks, and one fixed a small task that had been failing. None regressed under the rule. Exploratory: few tasks.
 
 [What Ratchet is for, and where it is going →](https://github.com/DaggerLee/DaggerLee/blob/main/ratchet.md)
 
